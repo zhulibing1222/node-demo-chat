@@ -1,0 +1,17 @@
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+.wrap{width: 80%;margin: auto;}
+
+header{background: #a4e8d9;line-height: 30px;margin-bottom: 10px;padding:  0 20px;}
+
+.content{display: flex;height: 600px;}
+.left{flex:1;background: #a4e8d9;}
+.right{flex:0 0 160px;padding:  0 20px;}
+.active{background: #a4e8d9}
+input{width: 100%;}
+.bottom{display:  flex;}
+.inputBox{flex: 1;}
+button{flex:0 0 auto;margin: 0 20px; }
+footer ul{
+  margin-left: 50px;
+}

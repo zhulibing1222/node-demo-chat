@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>chat</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>Basement</header>
+    <div class="content">
+      <div class="left"></div>
+      <div class="right">
+        <ul>
+          <li>Lobbyy</li>
+          <li>Lobbyy</li>
+          <li>Lobbyy</li>
+        </ul>
+      </div>
+    </div> 
+
+    <footer>
+      <div class="bottom">
+        <div class="inputBox"><input type="text"></div>
+        <button>send</button>
+      </div>
+      <p>Chat commands:</p>
+      <ul>
+        <li>Change nickname:/nick {username}</li>
+        <li>Join/create room:/join {room name}</li>
+      </ul>
+    </footer>
+  </div>
+  <script src='/socket.io/socket.io.js' type='text/javascript'></script>
+  <script src='/js/chat.js' type='text/javascript'></script>
+  <script src='/js/chat_ui.js' type='text/javascript'></script>
+</body>
+</html>
